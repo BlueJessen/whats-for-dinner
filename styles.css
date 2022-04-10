@@ -313,27 +313,22 @@
   }
 
   .loading {
-    font-size: large;
+    font-size: xx-large;
+    font-weight: bolder;
     text-transform: uppercase;
-    color: white;
-    animation-name: pulse;
+    color: #0fb9b1;
+    animation-name: pulseInOut;
     animation-duration: 2s;
     animation-iteration-count: infinite;
   }
 
-  @keyframes pulse {
-    0% {
-      transform: scale(0px);
-    }
-    40% {
-      transform: scale(5px);
-    }
-    60% {
-      transform: scale(7px);
-    }
-    100% {
-      transform: scale(0px)
-    }
+  @keyframes pulseInOut {
+    0% {opacity: 0;}
+    40% {opacity: 0.5;}
+    60% {opacity: 1;}
+    80% {opacity: 0.5;}
+    100% {opacity: 0;}
+
   }
   .main-title {
     width: 200px;

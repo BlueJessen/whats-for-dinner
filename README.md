@@ -67,7 +67,7 @@ You can visit the published version of this project [here](https://bluejessen.gi
 - JavaScript
 
 ## Sources
--[Stack Overflow](https://stackoverflow.com/)
+- [Stack Overflow](https://stackoverflow.com/)
 - [MDN](https://developer.mozilla.org/en-US/)
 - [W3Schools](https://www.w3schools.com/)
 

@@ -16,6 +16,7 @@ What's for dinner? The ultimate question.
 What's for dinner is a webpage with functional html, css elements, and javascript that allows
 the user to have a food item randomly selected based on their choice.
 
+
 ## Project Information
 #### Goals
 - To utilize html and css to match a visual comp provided

@@ -305,6 +305,31 @@
     align-items: center;
   }
 
+  .loading-container {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .loading {
+    font-size: xx-large;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #0fb9b1;
+    animation-name: pulseInOut;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes pulseInOut {
+    0% {opacity: 0;}
+    40% {opacity: 0.5;}
+    60% {opacity: 1;}
+    80% {opacity: 0.5;}
+    100% {opacity: 0;}
+
+  }
   .main-title {
     width: 200px;
     height:25px;

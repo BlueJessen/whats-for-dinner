@@ -7,10 +7,12 @@
   var cookPot = document.querySelector('.cookpot');
   var clearButton = document.querySelector('.clear-button');
   var required = document.querySelector('.required');
+  var loadingAni = document.querySelector('.loading');
 
   //event listeners
   letsCookButton.addEventListener('click', check);
   clearButton.addEventListener('click', clearPanel);
+
 
   //global variables
   var desserts = [
@@ -77,7 +79,7 @@
   //DOM or Display
 
   function displayRecipe(recipe) {
-    required.classList.add('hidden')
+    required.classList.add('hidden');
     displayRecipeItem.classList.remove('hidden');
     presentRecipeText.classList.remove('hidden');
     cookPot.classList.add('hidden');

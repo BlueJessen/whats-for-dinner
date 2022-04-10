@@ -35,6 +35,7 @@ The spec for this project can be found [here](https://frontend.turing.io/project
 
 ## Video Walkthrough
 *Click Thumbnail*
+
 [<img width="628" alt="Depiction-of-whats-for-dinner" src= "assets/video-thumbnail.png">](https://drive.google.com/file/d/1d3vRaydTkQ7Ll3ba7C1dtdz7txb1nUl5/view?usp=sharing)
 
 ### Illustrations For Tablet and Mobile
@@ -48,7 +49,7 @@ The spec for this project can be found [here](https://frontend.turing.io/project
 You can visit the published version of this project [here](https://bluejessen.github.io/whats-for-dinner/).
 
 ## Reflections
-[<img width="650" alt="cartoon-portrait" src="assets/blue-icon-4-9-22.png">]
+<img width="400" alt="cartoon-portrait" src="assets/blue-icon-4-9-22.png">
 
  This project taught me a lot about css for future projects.  There were a lot of hurdles, and I am glad I attempted to do the css CYOA although I didn't successfully finish the bullet points.  
 

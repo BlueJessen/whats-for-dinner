@@ -66,6 +66,11 @@ You can visit the published version of this project [here](https://bluejessen.gi
 - HTML
 - JavaScript
 
+## Sources
+-[Stack Overflow](https://stackoverflow.com/)
+- [MDN](https://developer.mozilla.org/en-US/)
+- [W3Schools](https://www.w3schools.com/)
+
 ## Contributors
 
 [Blue Jessen](https://github.com/BlueJessen)

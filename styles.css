@@ -305,6 +305,36 @@
     align-items: center;
   }
 
+  .loading-container {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .loading {
+    font-size: large;
+    text-transform: uppercase;
+    color: white;
+    animation-name: pulse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(0px);
+    }
+    40% {
+      transform: scale(5px);
+    }
+    60% {
+      transform: scale(7px);
+    }
+    100% {
+      transform: scale(0px)
+    }
+  }
   .main-title {
     width: 200px;
     height:25px;
